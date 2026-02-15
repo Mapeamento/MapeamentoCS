@@ -170,4 +170,26 @@ a.process-card span {
 .btn-bpmn:hover {
   text-decoration: none !important;
 }
+/* =====================================================
+   GARANTIR QUE NADA DO CARD PAREÇA LINK
+   ===================================================== */
+
+.process-card,
+.process-card * {
+  text-decoration: none !important;
+}
+
+/* Botão/link dentro do card */
+.btn-bpmn,
+.btn-bpmn:link,
+.btn-bpmn:visited,
+.btn-bpmn:hover,
+.btn-bpmn:active,
+.btn-bpmn:focus {
+  text-decoration: none !important;
+  color: #ff2e80;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 18px;
+}
 
