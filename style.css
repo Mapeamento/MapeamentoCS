@@ -134,5 +134,20 @@ a.process-card {
   color: inherit;
   display: block;
 }
+/* ===== REMOVE COMPLETAMENTE O ESTILO DE LINK DOS CARDS ===== */
+a.process-card,
+a.process-card:link,
+a.process-card:visited,
+a.process-card:hover,
+a.process-card:active,
+a.process-card:focus {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+/* garante que textos internos não herdem sublinhado */
+a.process-card * {
+  text-decoration: none !important;
+}
 
 }
