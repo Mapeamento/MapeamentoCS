@@ -128,12 +128,11 @@ footer {
   color: inherit;
   display: block;
 }
-/* REMOVE SUBLINHADO DE QUALQUER LINK DENTRO DOS CARDS */
-.process-card a,
-.process-card a:hover,
-.process-card a:visited,
-.process-card a:active {
-  text-decoration: none !important;
-  color: inherit !important;
+/* Remove aparência de link SOMENTE do card inteiro */
+a.process-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
+
 }
