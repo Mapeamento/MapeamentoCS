@@ -128,29 +128,17 @@ footer {
   color: inherit;
   display: block;
 }
-/* Remove aparência de link SOMENTE do card inteiro */
-a.process-card {
+/* botão visualizar */
+.btn-bpmn {
+  display: inline-block;
+  margin-top: 18px;
+  font-weight: bold;
+  color: #ff2e80;
   text-decoration: none;
-  color: inherit;
-  display: block;
-}
-/* Remove sublinhado e cor de link de TUDO que estiver dentro do card */
-a.process-card a,
-a.process-card a:link,
-a.process-card a:visited,
-a.process-card a:hover,
-a.process-card a:active,
-a.process-card a:focus {
-  text-decoration: none !important;
-  color: inherit !important;
 }
 
-/* Garante que H2 e P não apareçam como link */
-a.process-card h2,
-a.process-card p,
-a.process-card span {
-  text-decoration: none !important;
+.btn-bpmn:hover {
+  text-decoration: underline;
 }
-
 
 }
